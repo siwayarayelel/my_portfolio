@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORFOLIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/46e210ee73.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>𝓒</span> 𝓐 𝓛.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Cyrill</span><br>Andy From LAGUNA</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/pic1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Cyrill and I join in kodego bootcamp and am now pursuing my career in Web Development</p>
+                    <p>My strength is that I am always ready to take up new challenges and strive for excellence. This is because I believe success and failures are the best way to sculpt ourselves to reach our goals. And I believe in myself and my hard work and want fulfillment in everything.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <h3>Language</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                        </ul><br>
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li>BOOTSTRAP</li>
+                            <li>TAILWIND</li>
+                            <li>REACT</li>
+                        </ul><br>
+                        <h3>Database</h3>
+                        <ul>
+                            <li>MYSQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <h3>Primary</h3>
+                        <ul>
+                            <li>Dila Elementary School <p>(2005-2013)</p></li>
+                        </ul><br>
+                        <h3>Secondary</h3>
+                        <ul>
+                            <li>Cabuyao Integrated School <p>Junior HighSchool</p><p>(2013-2016)</p></li>
+                            <li>CITI Global College <p>Senior HighSchool</p><p>(2016-2018)</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2></h2>
+                    <p></p>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h2></h2>
+                    <p></p>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/mwbls.png" alt="">
+                    <div class="layer">
+                        <h3>MWBLS Project</h3>
+                        <p>A frontend e-Commerce using HTML. CSS, and JavaScript</p>
+                        <p>This project is to emphasize the work of filipino crafters and to help them </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/rps.png" alt="">
+                    <div class="layer">
+                        <h3>Rock Paper Scissors</h3>
+                        <p>A mini game using HTML. CSS, and JavaScript</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/conv.png" alt="">
+                    <div class="layer">
+                        <h3>Length Converter</h3>
+                        <p>A mini converter using HTML. CSS, and JavaScript</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>cyrilllirio143@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+639061528785</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100005402654641"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/cyrill-lirio-a49480263/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/siwayarayelel"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="#">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Cyrill. Made with <i class="fa-solid fa-heart"></i> by Cyrill Andy Lirio</p>
+        </div>
+    </div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
